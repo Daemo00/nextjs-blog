@@ -13,7 +13,7 @@ export default function Home() {
 
       <main>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Read <Link href="/posts/first-post">this page!</Link>
         </h1>
 
         <p className={styles.description}>
@@ -62,7 +62,7 @@ export default function Home() {
         </a>
       </footer>
 
-      <style jsx>{`
+      <style>{`
         main {
           padding: 5rem 0;
           flex: 1;
@@ -99,7 +99,7 @@ export default function Home() {
         }
       `}</style>
 
-      <style jsx global>{`
+      <style>{`
         html,
         body {
           padding: 0;
