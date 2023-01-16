@@ -1,0 +1,20 @@
+env:
+  browser: true
+  es2021: true
+extends:
+  - plugin:react/recommended
+  - google
+  - prettier
+overrides: []
+parserOptions:
+  ecmaVersion: latest
+  ecmaFeatures:
+    jsx: true
+  sourceType: module
+plugins:
+  - react
+rules:
+  require-jsdoc: off # Deprecated: https://eslint.org/blog/2018/11/jsdoc-end-of-life/
+settings:
+  react:
+    version: detect # Remove warning for missing React version
